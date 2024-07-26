@@ -23,6 +23,7 @@
 }
 
 .contaner {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -141,7 +142,7 @@ h2.title {
 }
 
 .waiting {
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
@@ -199,4 +200,43 @@ h2.title {
     font-weight: 300;
     line-height: 21px;
     letter-spacing: 0px;
+}
+
+.opimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.opimization .optimization_heder {
+    margin-left: 391px;
+    color: rgb(41, 156, 189);
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.opimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Robobto light";
+    font-weight: 300;
+}
+
+.opimization .optimization_text span {
+    font-family: "Robobto light";
+    font-weight: 700;
+}
+
+.opimization .optimization_img {
+    position: absolute;
+    top: 1454px;
+    left: -240px;
+    z-index: -1;
 }
